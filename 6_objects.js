@@ -27,11 +27,8 @@ const first = {a: 1}
 const second = {b: 2}
 
 // console.log(Object.is(20, 20))
-const obj = Object.assign({}, first, {
-    c: 2,
-    d: 3
-})
-// console.log(obj)
+const obj = Object.assign({}, first, second)
+console.log(obj)
 
 console.log(Object.entries(obj))
 console.log(Object.keys(obj))
